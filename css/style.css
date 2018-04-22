@@ -1,0 +1,184 @@
+*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; font-size:14px; background:url(../image/background.jpg) ; background-attachment:fixed; background-size:cover }
+a{text-decoration:none}
+li{list-style-type:none;}
+.clear{ clear:both;}
+
+/*输入框提示与渐变特效*/
+input::-webkit-input-placeholder { 
+color: #999; font-size:14px;
+-webkit-transition: color.5s; 
+} 
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
+color: #c2c2c2; 
+-webkit-transition: color.5s; 
+} 
+
+/*超链接过渡*/
+a{transition: 0.2s; text-decoration:none}
+a:hover{transition: 0.3s}
+/*
+#show{height:3800px;}
+#show-project{height:2200px;}
+#show-login{height:600px;}
+
+
+/*导航栏*/
+#navbar-right li, #navbar-left li{ float:left;}
+#navbar-right a{ color:#FFF; font-size:15px; text-align:center; width:80px; line-height:40px; margin-left:25px;}
+#navbar-right a:hover{ color:#F33 }
+#navbar-left a{ display:block; width:100px; height:40px; color:#FFF; text-align:center; line-height:40px;}
+#navbar-left a:hover{ background:#F33;}
+#navbar-left ul{ margin-left:100px}
+#navbar-left img{float:left;width:160px; margin:3px 0 0 10px}
+#navbar-left{width:800px; height:40px; float:left;}
+#navbar-right{width:180px; height:40px; float:right; background:#333;}
+#navbar-background{background:#000;height:40px; width:100%; position:fixed;z-index:2}
+#navbar{width:1100px; height:40px; margin:0 auto;}
+
+/*资源清单展示*/
+#list{ width:760px; height:800px ; background:#FFF; float:right; margin-top:50px ;box-shadow: -1px -1px 10px #000}
+#list a:hover{color:#F33}
+.list-a{ width:760px; height:50px; background:#FFF;overflow:hidden}
+.list-b{ width:760px; height:50px; background:#CCC;overflow:hidden}
+.list-a a,.list-b a{ line-height:50px; margin-left:30px; color:#333; font-size:16px}
+
+/*上方部分布局*/
+#top{width:1100px; margin:0 auto; padding-top:40px}
+#top a img{width:1100px; border-radius: 0 0 5px 5px; box-shadow: 3px 3px 5px #333}
+#position-bar{height:25px; width:760px; background:#FFF; margin-top:30px;/*box-shadow: -1px -1px 10px #666; */float:right}
+#position-bar img{width:15px; margin:5px 8px 0 10px; float:left}
+#position-bar a{color:#C60D11; margin-top:3px;float:left}
+#position-bar a:hover{color:#900}
+#position-bar p{ margin-top:3px;float:left}
+
+/*详细页面*/
+#content{ float:right; width:760px}
+#content h1{color:#FFF; font-weight:300; text-align:center; margin:50px 0 30px 0}
+#content img{width:760px; margin-bottom:10px}
+#content p{color:#FFF; font-size:16px; line-height:30px; font-weight:300; margin-top:50px}
+#content a{color:#CCC; font-size:16px; line-height:30px; font-weight:300; margin-top:50px}
+#content a:hover{color:#C30; font-size:16px; line-height:30px; font-weight:300; margin-top:50px}
+
+/*范围固定 居中布局*/
+#middle{width:1200px; height:2600px; margin:0 auto;}
+#middle-left{ width:810px; height:2580px; float:left;}
+/*项目页*/
+#project-middle{width:1200px; height:2100px; margin:0 auto;border-radius: 0px 5px 0px 5px;box-shadow: -1px -1px 10px #000; background:rgba(0,0,0,0.8)}
+#project-middle-left{ width:810px; height:2080px; float:left;}
+/*留言板 关于我们*/
+#message_board-middle{width:1200px; height:1000px; margin:0 auto;border-radius: 0px 5px 0px 5px;box-shadow: -1px -1px 10px #000; background:rgba(0,0,0,0.8)}
+#message_board-middle-left{ width:810px; height:980px; float:left;}
+/*资源页*/
+#resource-middle{width:1200px; height:1000px; margin:0 auto;border-radius: 0px 5px 0px 5px;box-shadow: -1px -1px 10px #000; background:rgba(0,0,0,0.8)}
+#resource-middle-left{ width:810px; height:980px; float:left;}
+
+
+/*登录页*/
+#login-middle{width:1200px; height:500px; margin:0 auto; margin-top:50px;border-radius: 5px 5px 5px 5px;/*box-shadow: -1px -1px 10px #000;*/ background:rgba(0,0,0,0.2)}
+/*ACG大图页专用*/
+#content-ACG-middle{width:1200px; height:4800px; margin:0 auto;border-radius: 0px 5px 0px 5px;box-shadow: -1px -1px 10px #000; background:rgba(0,0,0,0.8)}
+#content-ACG-middle-left{width:810px; height:4680px; float:left}
+
+/*占位模块*/
+.A{ width:10px; height:40px; background:#FFF; float:left}
+.B img{ width:1100px}
+.C{ padding:20px}
+/*.D{ width:70px; height:300px; float:left}*/
+.E{ width:1100px; height:50px; float:left}
+
+/*主页下方布局*/
+.bottom-block{ width:225px; height:225px ; background:#FFF; border-radius: 5px 5px 5px 5px;float:left; margin:0 25px 50px 25px;}
+.bottom-block a:hover{ opacity:0.8}
+.bottom-block img{ height:225px;border-radius: 5px 5px 5px 5px; margin:auto}
+#bottom-box{width:1100px; height:550px;background: rgba(0,0,0,0.7); padding-top:50px}
+
+#bottom{ width:1100px; height:700px; margin:0 auto;}
+#bottom-title{ width:1100px; height:100px ; background:#FFF; border-radius: 5px 5px 5px 5px;}
+
+#bottom-title-left{ width:20px; height:100px ; background:#b4b4b4; border-radius: 5px 0 0 0; float:left}
+#bottom-title img{width:1080px;border-radius: 0 5px 0 0; }
+
+/*项目页*/
+.project-show{width:730px; height:170px; background:#FFF; float:right; margin-top:50px;border-radius: 5px 5px 5px 5px; border:#FFF solid 15px}
+.project-show img{width:170px; float:left}
+.project-show-text{float:right; height:160px; width:560px; background:#FFF}
+.project-show-text a{float:right;margin-top:10px; color:#FFF; background:#F00; padding:5px 14px 5px 14px; font-size:11.5px}
+.project-show-text a:hover{background:#F60}
+.project-show-text-bottom{background:#EFEFEF; width:500px; height:80px; float:right; margin-top:5px;border-radius: 5px 5px 5px 5px; border:#EFEFEF solid; border-width:10px 20px 10px 20px}
+.project-show h1{font-size:22px; font-weight:600; color:#333;  width:500px; margin:0 auto; text-align:center;}
+.project-show ul{ font-size:14px; font-weight:300;line-height:20px; }
+.project-show p{ font-size:14px; font-weight:300;line-height:20px;}
+
+/*最近更新模块*/
+.new{ width:810px;position:relative; margin-bottom:10px;z-index:0; overflow:visible}
+.new_rectangle{ width:700px; border:solid #FFF; border-width:30px 30px 75px 30px; background:#FFF; border-radius: 5px 5px 5px 5px; position:relative; left:50px; top:-40px; z-index:-1;box-shadow: -1px -1px 8px #000}
+.new_rectangle h1{font-size:22px; font-weight:600; color:#333 ; margin-top:25px; text-align:center}
+.new_rectangle h2{ height:25px; width:80px; text-align:center; line-height:25px;font-size:16px; font-weight:400; background:#CCC ; color:#FFF; margin-top:25px;border-radius: 5px 5px 5px 5px; float:left} 
+.new_rectangle p{ font-size:12px; font-weight:300; background:#E2E2E2;border-radius: 5px 5px 5px 5px; padding:10px; margin-top:10px}
+.new_rectangle .button a{ float:right; margin-top:20px; color:#FFF; background:#F00; padding:10px 17px 10px 17px; font-size:12px}
+.new_rectangle .button a:hover{ color:#FFF; background:#C30}
+.new_rectangle a{color:#000}
+.new_rectangle a:hover{color:#F33}
+.new_rectangle img{ width:700px;border-radius: 5px 5px 5px 5px; margin-top:20px}
+.new_circle {width:80px; height:80px; background:#F33; border-radius: 40px; left:20px; top:10px; position:relative; z-index:1;box-shadow: 2px 2px 4px #333}
+.new_circle h1{; color:#FFF; font-weight:500; text-align:center; font-size:14px ;position:relative;top:10px}
+.new_circle h2{; color:#FFF;  text-align:center; font-size:36px; font-weight:500;position:relative;top:8px }
+
+
+/*搜索框*/
+#search{ width:310px ; height:30px; float:right; margin:32px 50px 0 0;box-shadow: -1px -1px 8px #000; border-radius: 5px 5px 5px 5px;}
+
+
+#search-left{ background:#CCC; width:180px ; height:20px; border:solid #FFF;border-width:5px 50px 5px 30px; border-radius: 5px 0px 0px 5px;float:left}
+#search-left input{height:20px; width:230px; border-style:none ; padding-left:10px;}
+#search-right{ background:#F33; width:50px ; height:30px; float:right; border-radius: 0px 5px 5px 0px;}
+#search-right img{ width:20px; margin:5px 0 0 15px;}
+
+/*登录面板*/
+#login-panel{ background:#FFF; width:270px ;height:220px ; border:solid #FFF 20px; float:right; border-radius: 5px 5px 5px 5px; margin:30px 50px 0 0 ;box-shadow: -1px -1px 15px #000}
+#login-panel-heading{ font-weight:400; margin-left:10px}
+.login-panel-text{width:250px; height:40px; margin:0 auto; margin-top:30px}
+.login-panel-text-left{ width:50px; height:40px; background:#b4b4b4; float:left;border-radius: 5px 0px 0px 5px; }
+.login-panel-text-left img{width:25px; margin:6px 0 0 14px}
+.login-panel-text-right{width:200px; height:40px; background:#FFF; float:right;}
+.login-panel-text-right input{height:40px; width:187px; border-style:none ; font-size:16px ; padding-left:10px; background:#E7E7E7}
+.login-panel-button{ height:30px; width:80px; background:#999; margin:30px 20px 0 30px ; float:left}
+.login-panel-button a{text-align:center; line-height:30px; color:#FFF; display:block; height:30px; width:80px;}
+.login-panel-button a:hover{background:#F33}
+
+
+/*登录页面专用*/
+#login-nx-panel{ background:#FFF; width:350px ;height:220px ; border:solid #FFF 20px; float:right; border-radius: 5px 5px 5px 5px; margin:30px 50px 0 0 ;/*box-shadow: -1px -1px 8px #000*/}
+#login-nx-panel-heading{ font-weight:400; margin-left:10px}
+.login-nx-panel-text{width:330px; height:40px; margin:0 auto; margin-top:30px}
+.login-nx-panel-text-left{ width:50px; height:40px; background:#b4b4b4; float:left;border-radius: 5px 0px 0px 5px; }
+.login-nx-panel-text-left img{width:25px; margin:6px 0 0 14px}
+.login-nx-panel-text-right{width:280px; height:40px; background:#FFF; float:right;}
+.login-nx-panel-text-right input{height:40px; width:267px; border-style:none ; font-size:16px ; padding-left:10px; background:#E7E7E7}
+.login-nx-panel-button{ height:30px; width:80px; background:#999; margin:30px 20px 0 60px ; float:left}
+.login-nx-panel-button p{text-align:center; line-height:30px; color:#FFF}
+
+
+
+/*微信二维码*/
+#wechat{ background:#FFF;  width:310px ;height:360px ;float:right; border-radius: 5px 5px 5px 5px; margin:30px 50px 0 0;box-shadow: -1px -1px 8px #000 }
+#wechat-title{ background:#b4b4b4;  width:310px ;height:40px ;float:right; border-radius: 5px 5px 0px 0px;}
+#wechat-title p{text-align:center; line-height:40px}
+#wechat-code{margin:0 auto; width:280px; margin-top:60px}
+#wechat-code img{ width:280px;border-radius: 5px 5px 5px 5px;}
+
+/*留言板页面*/
+#message-board{width:760px; height:400px ; background:#E5E5E5; float:right; margin-top:50px;border-radius: 5px 5px 5px 5px;}
+#message-board-input{width:760px; height:220px ; float:right; background:#FFF;border-radius: 5px 5px 5px 5px; margin-top:30px}
+#message-board-input h1{color:#666; font-size:14px; font-weight:400; margin:20px 0 0 20px}
+#message-board-input textarea{margin:10px 0 0 20px; height:100px; width:720px; resize:none; background:#E7E7E7}
+#message-board-input-button{height:30px; width:80px;  margin:20px 20px 0 30px ; float:right}
+#message-board-input-button a{text-align:center; line-height:30px; color:#FFF; display:block;background:#999;}
+#message-board-input-button a:hover{ background:#F33}
+
+
+/*版权信息*/
+#info{ width:700px; height:50px; margin: 0 auto; margin-top:20px}
+#info img{float:left; width:170px}
+#info p{float:right; color:#FFF; font-size:13px; margin-top:15px}
